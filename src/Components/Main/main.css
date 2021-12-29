@@ -1,0 +1,62 @@
+.main{
+    position: absolute;
+width: 956px;
+height: 545px;
+left: 292px;
+top: 106px;
+background: #FFFFFF;
+box-shadow: 0px 5px 10px #F1F2FA;
+border-radius: 8px;
+}
+
+.main .searchs{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around
+}
+.main .searchs select{
+    height: 40px;
+    width: 310px;
+    border-radius: 4px;
+    border:3px solid gray;
+    padding: 6px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.main .searchs button{
+    width: 120px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: whitesmoke;
+    font-size: 18px;
+    font-family: sans-serif;
+    background-color: rgb(154, 169, 214);
+    height: 40px;
+}
+.main .main_infos{
+    position: absolute;
+width: 228px;
+height: 373px;
+left: 702px;
+top: 100px;
+background: #ced4df;
+border-radius: 6px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+align-content: center;
+}
+.main .main_infos .info{
+    margin:10px 0;
+    text-align: center;
+}
+.main .info h2{
+font-size: 33px;
+font-weight: bold;
+color: rgb(46, 77, 73);
+}
+.main .info p{
+    font-size: 17px;
+}

@@ -1,0 +1,77 @@
+.navbar {
+  position: absolute;
+  width: 1442px;
+  height: 90px;
+  left: 260px;
+  top: -1px;
+  background: #ffffff;
+}
+.navbar h1{
+    position: absolute;
+width: 166px;
+height: 39px;
+left: 59px;
+top: 25px;
+font-family: "Gilroy";
+font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 39px;
+color: #1C1F37;
+}
+.navbar .search{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 24px;
+    border-radius: 50%;
+    background: #F5F7FB;
+}
+
+.search img{
+    position: absolute;
+    left: 26.33%;
+    right: 13.72%;
+    top: 26.33%;
+    bottom: 13.72%;
+    
+}
+.icon{
+    right: 293px;
+
+}
+.notification{
+    right: 237px;
+}
+.navbar .avatar{
+    position: absolute;
+width: 40px;
+height: 40px;
+right: 181px;
+border-radius: 50%;
+top: 24px;
+object-fit: contain;
+background: url("../../assets/images/avatar.png"), #C4C4C4;
+}
+.navbar p{
+    position: absolute;
+width: 83px;
+height: 19px;
+top: 34px;
+right: 86px;
+font-family: "Inter";
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 19px;
+
+color: #000000;
+}
+.navbar > img{
+    position: absolute;
+right: 40.59px;
+top: 43.72%;
+bottom: 31.61%;
+cursor: pointer;
+
+}
