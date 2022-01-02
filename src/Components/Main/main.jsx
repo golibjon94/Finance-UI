@@ -39,19 +39,7 @@ export default function Main() {
     <Router>
       <div className="main">
         <div className="searchs">
-          {/* <select name="" id="">
-            <option value="">Dekabr 2021</option>
-            <option value="">Noyabr 2021</option>
-            <option value="">Oktyabr 2021</option>
-            <option value="">Sentyabr 2021</option>
-            <option value="">Iyul 2021</option>
-            <option value="">Iyun 2021</option>
-            <option value="">May 2021</option>
-            <option value="">Aprel 2021</option>
-            <option value="">Mart 2021</option>
-            <option value="">Fevral 2021</option>
-            <option value="">Yanvar 2021</option>
-          </select> */}
+       
 
 <Box sx={{ minWidth: 150 }}>
       <FormControl fullWidth>
@@ -101,13 +89,7 @@ export default function Main() {
     <Stack direction="row" spacing={2}>
       <Button variant="primary">Tanlang</Button>
     </Stack>
-          {/* <select name="" id="">
-            <option value="">Bolali oilalar uchun nafaqa (0-14)</option>
-            <option value="">Moddiy yordam</option>
-            <option value="">Bolaga qarash bo'yicha nafaqa (0-2)</option>
-            <option value="">Kam ta'minlangan oilalarga bolalar nafaqasi</option>
-            <option value="">Kam ta'minlangan oilalarga moddiy yordam</option>
-          </select> */}
+      
 
 
  
