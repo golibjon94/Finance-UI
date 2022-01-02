@@ -193,62 +193,6 @@ import SidebarItems from "../../SidebarDatas/sidebarDatas";
         </div>
 
 
-    //     <Box sx={{ display: 'flex' }}>
-    //   <CssBaseline />
-    //   <AppBar position="fixed" open={open}>
-    //     <Toolbar>
-    //       <IconButton
-    //         color="inherit"
-    //         aria-label="open drawer"
-    //         onClick={handleDrawerOpen}
-    //         edge="start"
-    //         sx={{
-    //           marginRight: '36px',
-    //           ...(open && { display: 'none' }),
-    //         }}
-    //       >
-    //         <MenuIcon />
-    //       </IconButton>
-    //       <Typography variant="h6" noWrap component="div">
-    //         Mini variant drawer
-    //       </Typography>
-          
-    //     </Toolbar>
-    //   </AppBar>
-    //   <Drawer variant="permanent" open={open}>
-    //     <DrawerHeader>
-    //       <IconButton onClick={handleDrawerClose}>
-    //         {theme.direction === 'rtl' ? <ChevronRightIcon /> : <ChevronLeftIcon />}
-    //       </IconButton>
-    //     </DrawerHeader>
-    //     <Divider />
-    //     <List>
-    //       {['Inbox', 'Starred', 'Send email', 'Drafts'].map((text, index) => (
-    //         <ListItem button key={text}>
-    //           <ListItemIcon>
-    //             {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
-    //           </ListItemIcon>
-    //           <ListItemText primary={text} />
-    //         </ListItem>
-    //       ))}
-    //     </List>
-    //     <Divider />
-    //     <List>
-    //       {['All mail', 'Trash', 'Spam'].map((text, index) => (
-    //         <ListItem button key={text}>
-    //           <ListItemIcon>
-    //             {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
-    //           </ListItemIcon>
-    //           <ListItemText primary={text} />
-    //         </ListItem>
-    //       ))}
-    //     </List>
-    //   </Drawer>
-    //   <Box component="main" sx={{ flexGrow: 1, p: 3 }}>
-    //     <DrawerHeader />
-        
-       
-    //   </Box>
-    // </Box>
+    
     )
 }
