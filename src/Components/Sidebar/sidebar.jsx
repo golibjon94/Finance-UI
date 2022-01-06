@@ -11,7 +11,8 @@ import FolderIcon from "../../assets/icons/Folder_alt.png";
 import SettingIcon from "../../assets/icons/Setting_alt_line.png";
 import VektorSidebar from "../../assets/icons/VectorSidebar.png";
 import SidebarItems from "../../SidebarDatas/sidebarDatas";
-
+import { BrowserRouter as Router, Link, Switch, Route } from "react-router-dom";
+import Registr from '../Registr/Registr';
 
 // import { styled, useTheme } from '@mui/material/styles';
 // import Box from '@mui/material/Box';
@@ -120,7 +121,7 @@ import SidebarItems from "../../SidebarDatas/sidebarDatas";
    console.log(SidebarItems);
     return (
 
-
+        <Router>
         <div className='sidebar'>
             <div className="dash">
                 <img src={DashLogo}  alt='Dashlogo'/>
@@ -131,7 +132,7 @@ import SidebarItems from "../../SidebarDatas/sidebarDatas";
             <div className="dashboard">
                 <div className="dashboard_item">
                     <img src={ChartFill} alt="chart_fill" />
-                    <p>Dashboard</p>
+                    <p><Link to="/">Dashboard</Link></p>
                 </div>
             </div>
             {/* ----------------- */}
@@ -139,7 +140,7 @@ import SidebarItems from "../../SidebarDatas/sidebarDatas";
                 <div className="inbox_item">
                     <img src={Chat} alt="chat" />
                    <div className="input">
-                       Monitoring 
+                      <Link to="/monitoring">Monitoring</Link>  
                        <p>1</p>
                    </div>
                 </div>
@@ -150,13 +151,13 @@ import SidebarItems from "../../SidebarDatas/sidebarDatas";
             <div className="items">
                 <div className="items_item">
                     <img src={AccountIcon} alt="accounticon" />
-                    <p>Registratsiya</p>
+                   <p> <Link to="/registr"> Registratsiya </Link></p>
                 </div>
             </div>
             <div style={{top:"360px"}} className="items">
                 <div className="items_item">
                     <img src={CalendarIcon} alt="calendar" />
-                    <p>Postlar</p>
+                    <p><Link to="/post">Postlar</Link></p>
                 </div>
             </div>
             <div style={{top:"405px"}} className="items">
@@ -192,6 +193,22 @@ import SidebarItems from "../../SidebarDatas/sidebarDatas";
            </div>
         </div>
 
+            <Switch>
+                {/* <Route path="/">
+                    <Dashboard/>
+                </Route> */}
+                {/* <Route path="/monitoring">
+                    <Monitoring/>
+                </Route> */}
+                <Route path="/registr">
+                    <Registr/>
+                </Route>
+                {/* <Route path="/post">
+                    <Postlar/>
+                </Route> */}
+            </Switch>
+
+        </Router>
 
     
     )

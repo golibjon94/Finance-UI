@@ -70,7 +70,7 @@ export default function Main() {
 
     <Box sx={{ minWidth: 150 }}>
       <FormControl fullWidth>
-        <InputLabel id="demo-simple-select-label">Tanlang</InputLabel>
+        <InputLabel id="demo-simple-select-label">Ariza turi</InputLabel>
         <Select
           labelId="demo-simple-select-label"
           id="demo-simple-select"

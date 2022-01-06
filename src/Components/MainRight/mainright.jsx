@@ -9,14 +9,14 @@ const Mainright = () => {
     <div className="mainRight">
       <div className="top">
         <img src={AudienceIcon} alt="audience" />
-        <h4>Audience Demografic</h4>
+        <h4>Ariza ma'lumotlari</h4>
       </div>
       <div className="order_time">
         <div className="order_left">
-          <h4>Order Time</h4>
-          <p>From 1-6 Dec 2021</p>
+          <h4>Ariza vaqti</h4>
+          <p> 1-6 Dekabr 2021</p>
         </div>
-        <button>View Report</button>
+        <button>Hisobotni ko'rish</button>
       </div>
       <Chartt />
       <div className="audience_infos">
