@@ -132,7 +132,7 @@ import Registr from '../Registr/Registr';
             <div className="dashboard">
                 <div className="dashboard_item">
                     <img src={ChartFill} alt="chart_fill" />
-                    <p><Link to="/">Dashboard</Link></p>
+                    <Link  to="/"> <p>Dashboard</p></Link>
                 </div>
             </div>
             {/* ----------------- */}
@@ -140,56 +140,56 @@ import Registr from '../Registr/Registr';
                 <div className="inbox_item">
                     <img src={Chat} alt="chat" />
                    <div className="input">
-                      <Link to="/monitoring">Monitoring</Link>  
-                       <p>1</p>
+                      <Link to="/monitoring"><p>Monitoring</p></Link>  
+                            <p>1</p>
                    </div>
                 </div>
             </div>
             {/* ----------------- */}
-            <h3>To'lovlar</h3>
+            <h3>Ish maydoni</h3>
             {/* ITEMS----------- */}
             <div className="items">
                 <div className="items_item">
                     <img src={AccountIcon} alt="accounticon" />
-                   <p> <Link to="/registr"> Registratsiya </Link></p>
+                    <Link to="/registr"><p> Registratsiya</p> </Link>
                 </div>
             </div>
             <div style={{top:"360px"}} className="items">
                 <div className="items_item">
                     <img src={CalendarIcon} alt="calendar" />
-                    <p><Link to="/post">Postlar</Link></p>
+                    <Link  to="/post"><p>Postlar</p></Link>
                 </div>
             </div>
             <div style={{top:"405px"}} className="items">
                 <div className="items_item">
                     <img src={CommunitiesIcon} alt="chart_fill" />
-                    <p>Jamoa</p>
+                    <Link to="/community"><p>Jamoa</p></Link>
                 </div>
             </div>
             <div style={{top:"445px"}} className="items">
                 <div className="items_item">
                     <img src={Analytics} alt="chart_fill" />
-                    <p>Analitika</p>
+                   <Link to="/analytic"><p>Analitika</p></Link> 
                 </div>
             </div>
         <h3 style={{top:"522px"}}>General</h3>
         <div style={{top:"545px"}} className="items">
                 <div className="items_item">
                     <img src={FolderIcon} alt="chart_fill" />
-                    <p>Fayllar & Papkalar</p>
+                   <Link to="/files"><p>Fayllar & Papkalar</p></Link> 
                 </div>
                 </div>
                 <div style={{top:"585px"}} className="items">
                 <div className="items_item">
                     <img src={SettingIcon} alt="chart_fill" />
-                    <p>Sozlamalar</p>
+                    <Link to="settings"><p>Sozlamalar</p></Link>
                 </div>
                 </div>
                 {/* ------------------ */}
                 <img src={VektorSidebar} alt="vek" />
            <div className="help">
-               <p>Need Help With Dash? </p>
-               <button>Go to help Center</button>
+               <p>Yordam kerakmi? </p>
+               <button>Markazga bog'laning</button>
            </div>
         </div>
 

@@ -1,12 +1,14 @@
 .sidebar{
-    position: absolute;
+position: absolute;
 width: 260px;
 height: 1164px;
 left: 0px;
 top: 0px;
-background: #081A51;
+background: #0e40d4;
 display: flex;
 flex-direction: column;
+color: white;
+font-family: 'Josefin Sans', cursive;
 }
 .sidebar .dash{
     position: absolute;
@@ -14,8 +16,10 @@ width: 111px;
 height: 40px;
 left: 1px;
 top: 24px;
+font-family: 'Josefin Sans', cursive;
 
 }
+
 .dash img{
     position: absolute;
 width: 200px;
@@ -25,6 +29,7 @@ left: 20px;
 top: 4px;
 align-items: center;
 cursor: pointer;
+font-family: 'Josefin Sans', cursive;
 
 }
 .dash p{
@@ -38,7 +43,7 @@ font-style: normal;
 font-weight: 800;
 font-size: 24px;
 line-height: 29px;
-
+font-family: 'Josefin Sans', cursive;
 color: #FFFFFF;
 
 }
@@ -54,6 +59,7 @@ font-weight: normal;
 font-size: 12px;
 line-height: 14px;
 color: #51CBFF;
+font-family: 'Josefin Sans', cursive;
 }
 .sidebar .dashboard{
     position: absolute;
@@ -61,7 +67,8 @@ width: 244px;
 height: 56px;
 left: 16px;
 top: 148px;
-background: #1B2B65;
+font-family: 'Josefin Sans', cursive;
+
 }
 .dashboard .dashboard_item img{
     position: absolute;
@@ -69,6 +76,7 @@ left: 3.76%;
 right: 96.83%;
 top: 23.41%;
 bottom: 82.33%;
+font-family: 'Josefin Sans', cursive;
 }
 .dashboard_item p{
     position: absolute;
@@ -82,6 +90,7 @@ font-weight: normal;
 font-size: 18px;
 line-height: 21px;
 color: #FFFFFF;
+
 }
 .sidebar .inbox{
     position: absolute;
@@ -89,7 +98,7 @@ width: 260px;
 height: 56px;
 left: 0px;
 top: 204px;
-background: #0A194E;
+
 }
 .inbox .inbox_item{
     position: absolute;
